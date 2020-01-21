@@ -1,0 +1,27 @@
+.mini {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.mini .mini__thead .thead__tr {
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.mini .mini__thead .thead__tr .tr__th {
+  padding: 3px 10px;
+  margin: 10px 10px;
+}
+
+.mini .mini__thead .thead__tr .tr__th:first-child {
+  padding: 5px 90px;
+}
+
+.mini .mini__tbody tr:nth-child(even) {
+  background-color: #a29bfe;
+}
+
+.mini .mini__tbody tr:hover {
+  background-color: #6c5ce7;
+}

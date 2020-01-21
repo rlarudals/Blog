@@ -1,0 +1,13 @@
+extends ./layouts/main.pug
+include mixins/miniBoard
+
+block content
+    .h_box
+        .h_box__col_1 예쁜 박스 3개 들어갈 공간
+        .h_box__col_2
+            .col_2__sub1 
+                .sub_1__title 최근 소식 +
+                +miniBoard
+            .col_2__sub2
+                .sub_2__title 이슈 +
+                +miniBoard

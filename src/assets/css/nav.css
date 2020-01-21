@@ -1,0 +1,52 @@
+@keyframes createNav {
+  0% {
+    transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes navHover {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.box {
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: #a29bfe;
+}
+
+.nav {
+  margin: 40px;
+  animation: createNav 0.5s forwards;
+}
+
+.box .box__content {
+  margin-left: 200px;
+}
+
+.box .nav__items {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: rebeccapurple;
+  padding: 10px;
+  border-bottom: #fff solid 1px;
+}
+
+.box .nav__items:hover {
+  animation: navHover 1s infinite;
+}
+
+.box .box__nav .nav .nav__items a {
+  text-decoration: none;
+}
