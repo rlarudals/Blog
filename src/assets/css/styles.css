@@ -2,6 +2,7 @@
 @import "./reset.css";
 @import "./home.css";
 @import "./miniBoard.css";
+@import "./about.css";
 
 body {
   font-family: "Baloo Bhai", cursive;

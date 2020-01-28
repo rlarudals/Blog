@@ -1,0 +1,21 @@
+.a_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.a_box .a_box__col_1 {
+  width: 720px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+.a_box .a_box__col_2 {
+  width: 720px;
+  height: 400px;
+}
+
+.a_box .a_box__col_1 .col_1__left {
+  width: 350px;
+}
