@@ -1,8 +1,32 @@
 extends ./layouts/main.pug
+include mixins/portBox
 
 block content
    .a_box
     .a_box__col_1 
-        .col_1__left Profile Avatar
-        .col_1__right Profile Content
-    .a_box__col_2 Profile Description
+        .col_1__left 
+            .col_1_left__avatar 
+        .col_1__right
+            table.a_table
+                tr.table__row
+                    td.table__row__data NAME
+                    td.table__row__data : KIM KYOUNG MIN
+                tr.table__row
+                    td.table__row__data DEPT
+                    td.table__row__data : 4LEAF SOFTWARE
+                tr.table__row
+                    td.table__row__data E-MAIL
+                    td.table__row__data : gim181004@gmail.com
+                tr.table__row
+                    td.table__row__data MOBILE
+                    td.table__row__data : 010-5157-6991
+                tr.table__row
+                    td.table__row__data GIT
+                    td.table__row__data : https://github.com/rlarudals
+                    
+    .a_box__col_2 
+        +portBox
+        +portBox
+        +portBox
+        +portBox
+        +portBox

@@ -14,8 +14,30 @@
 .a_box .a_box__col_2 {
   width: 720px;
   height: 400px;
+  display: flex;
+  flex-direction: row;
+  animation: initStart 4s forwards;
 }
 
 .a_box .a_box__col_1 .col_1__left {
   width: 350px;
+}
+
+.a_box .a_box__col_1 .col_1__left .col_1_left__avatar {
+  width: 250px;
+  height: 250px;
+  background-image: url(../img/avatar.jpeg);
+  background-size: cover;
+  border-radius: 50%;
+  animation: initStart 2s forwards;
+}
+
+.a_table {
+  margin-top: 35px;
+  animation: initStart 3s forwards;
+}
+
+.a_table .table__row .table__row__data {
+  padding: 10px 12px;
+  font-size: 18px;
 }
